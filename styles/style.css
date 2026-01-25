@@ -217,6 +217,7 @@ grid-template-areas:
   color: white;
   gap: 40px;
   
+  
 }
 iframe{
   max-width: 380px;
@@ -234,4 +235,22 @@ iframe{
   color: white;
   padding: 40px;
   align-items: center;
+}
+footer{
+  background: url(../assets/footer-bg.png);
+  padding: 120px;
+  text-align: center;
+  color: white;
+}
+.footer-logo{
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  justify-self: center;
+  gap: 60px;
+  width: 544px;
+}
+footer h1{
+  font-size: 5em;
 }
