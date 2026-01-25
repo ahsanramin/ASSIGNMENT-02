@@ -52,7 +52,7 @@ body {
 
 .banner {
   background: url(../assets/hero-bg.png);
-  background-size: cover;
+  
 
 
 }
@@ -60,7 +60,7 @@ body {
 .bage {
   position: absolute;
   top: 300px;
-  right: 470px;
+  right: 500px;
   justify-self: center;
   font-size: 22px;
   padding: 8px 16px;
@@ -78,8 +78,8 @@ body {
   background: url(../assets/hero-circle.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px;
-  width: 350px;
+  height: 500px;
+  width: 500px;
   margin-bottom: 40px;
 }
 
@@ -149,4 +149,89 @@ body {
 }
 .card-paragraph{
   color: white;
+}
+.choose-cards>* {
+background-color:#351165 ;
+border-radius: 40px;
+padding: 40px;
+color: white;
+
+}
+.choose{
+  background-color: #230E3D;
+  padding: 120px 200px;
+}
+.choose-tittle{
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: white;
+}
+.Premium-card{
+  grid-area: Premium-card;
+}
+.Mobile-card{
+  grid-area: Mobile-card;
+}
+.Global-card{
+  grid-area: Global-card;
+}
+.Exclusive-card{
+  grid-area: Exclusive-card;
+}
+.Rich-card{
+  grid-area: Rich-card;
+}
+.choose-cards{
+  gap: 30px;
+  display: grid;
+grid-template-areas: 
+"Premium-card Mobile-card Mobile-card"
+"Premium-card Global-card Global-card"
+"Exclusive-card Exclusive-card Rich-card"
+;
+}
+.Featured{
+  padding: 120px 200px;
+  background-color: #1A0B2E;
+  
+}
+.Episodes-tittle{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+.details{
+  background-color: #250D44;
+  padding: 24px;
+}
+.Episodes-cards{
+  display: flex;
+  gap: 30px;
+  align-self: center;
+  
+}
+.Episodes-cards>*{
+  max-width: 380px;
+  color: white;
+  gap: 40px;
+  
+}
+iframe{
+  max-width: 380px;
+}
+.video-time{
+  color: #00FF88;
+}
+.Episodes{
+  margin-bottom: 120px;
+}
+.about-host{
+  display: flex;
+  gap: 24px;
+  background-color: #351165;
+  color: white;
+  padding: 40px;
+  align-items: center;
 }
