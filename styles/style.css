@@ -228,6 +228,11 @@ iframe{
 .Episodes{
   margin-bottom: 120px;
 }
+.Meet{
+  color: white;
+  font-size: 4em;
+  justify-self: center;
+}
 .about-host{
   display: flex;
   gap: 24px;
@@ -253,4 +258,120 @@ footer{
 }
 footer h1{
   font-size: 5em;
+}
+@media screen and (max-width:576px) {
+body{
+  max-width: 100%;
+  padding: 20px;
+}
+.navber nav{
+  padding: 12px 16px;
+}
+.nav-link{
+  display: none;
+}
+.nav-btn{
+  display: none;
+}
+.nav-logo{
+  font-size: 20px;
+}
+.banner{
+  background: url(../assets/hero-bg.png);
+  padding: 40px 0;
+  text-align: center;
+}
+.bage{
+  top: 250px;
+  right: 70px;
+  font-size: 14px;
+  width: 70px;
+  height: 35px;
+}
+.mike-circle{
+  width: 220px;
+  height: 220px;
+  
+}
+.hero{
+  width: 80px;
+}
+.banner-tittle{
+  font-size: 1.8em;
+}
+.banner-paragraph{
+  font-size: 14px;
+  padding: 0 10px;
+}
+.banner-btn{
+  flex-direction: column;
+  gap: 10px;
+}
+.banner-btn button{
+  width: 100%;
+  justify-content: center;
+}
+.about{
+  padding: 50px 16px;
+}
+.about-card{
+  flex-direction: column;
+  gap: 20px;
+  width: 100px;
+  text-align: center;
+}
+.card-tittle{
+  font-size: 2.5em;
+}
+.choose{
+  padding: 60px 16px;
+}
+.choose-cards{
+  grid-template-areas:
+  "Premium-card "
+  "Mobile-card"
+  "Global-card"
+  "Exclusive-card"
+  "Rich-card" ;
+}
+.choose-cards>*{
+  padding: 20px;
+}
+.Featured{
+  padding: 60px 16px;
+}
+.Episodes-cards{
+  flex-direction: column;
+  gap: 24px;
+}
+  .Episodes-cards>*{
+    max-width: 100%;
+  }
+iframe{
+  width: 100%;
+  height: 200px;
+  max-width: 100%;
+}
+.details{
+  padding: 16px;
+}
+.about-host{
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+.about-host img{
+  width: 100px;
+}
+footer{
+  padding: 60px 16px;
+}
+footer h1{
+  font-size: 2.5em;
+}
+.footer-logo{
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
 }
